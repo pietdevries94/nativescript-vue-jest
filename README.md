@@ -1,6 +1,6 @@
-# vue-jest
+# nativescript-vue-jest
 
-Jest Vue transformer with source map support
+Jest Vue transformer with source map support. Extended with support for Nativescript. The master branch is unchanged. For the updated version, check the [v3 branch](https://github.com/pietdevries94/nativescript-vue-jest/tree/v3)
 
 > **NOTE:** This is documentation for `vue-jest@3.x`. [View the vue-jest@2.x documentation](https://github.com/vuejs/vue-jest/tree/e694fc7ce11ae1ac1c778ed7c4402515c5f0d5aa)
 
