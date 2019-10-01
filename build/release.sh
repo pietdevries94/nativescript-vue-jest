@@ -11,7 +11,7 @@ then
   # run tests
   npm test 2>/dev/null
 
-  npm version $VERSION --message "release: $VERSION"
+  npm version $VERSION --message "release: $VERSION" --allow-same-version
 
   # publish
   git push origin refs/tags/v$VERSION

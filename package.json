@@ -1,5 +1,5 @@
 {
-  "name": "vue-jest",
+  "name": "nativescript-vue-jest",
   "version": "3.0.4",
   "description": "Jest Vue transform",
   "main": "vue-jest.js",
@@ -43,6 +43,7 @@
     "eslint-plugin-vue": "^2.1.0",
     "eslint-plugin-vue-libs": "^1.2.0",
     "hamljs": "^0.6.2",
+    "husky": "^3.0.7",
     "jade": "^1.11.0",
     "jest": "^20.0.4",
     "nativescript-vue": "^2.4.0",
@@ -90,6 +91,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/vue-jest.git"
+    "url": "git+https://github.com/pietdevries94/nativescript-vue-jest.git"
   }
 }
