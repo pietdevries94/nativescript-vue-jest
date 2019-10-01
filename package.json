@@ -25,7 +25,7 @@
     "release:note": "node build/gen-release-note.js",
     "test": "npm run lint && ./test.sh",
     "unit": "./test.sh",
-    "unit:run": "jest test --no-cache --runInBand --coverage --coverageDirectory test/coverage"
+    "unit:run": "jest test --no-cache --runInBand --coverage --coverageDirectory test/coverage test/NativeScript.spec.js"
   },
   "author": "Edd Yerburgh",
   "license": "MIT",
@@ -45,7 +45,9 @@
     "hamljs": "^0.6.2",
     "jade": "^1.11.0",
     "jest": "^20.0.4",
-    "node-sass": "^4.10.0",
+    "nativescript-vue": "^2.4.0",
+    "nativescript-vue-template-compiler": "^2.4.0",
+    "node-sass": "^4.12.0",
     "pug": "^2.0.0-rc.3",
     "stylus": "^0.54.5",
     "typescript": "^2.5.2",
@@ -54,8 +56,9 @@
   },
   "peerDependencies": {
     "babel-core": "^6.25.0 || ^7.0.0-0",
-    "vue": "^2.x",
-    "vue-template-compiler": "^2.x"
+    "nativescript-vue": "^2.4.0",
+    "nativescript-vue-template-compiler": "^2.4.0",
+    "vue": "^2.x"
   },
   "dependencies": {
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",

@@ -1,24 +1,26 @@
-# vue-jest
+# nativescript-vue-jest
 
-Jest Vue transformer with source map support
+Jest Vue transformer with source map support and Nativescript support. Fork of [vue-jest](https://github.com/vuejs/vue-jest).
+
+This transformer defaults to web templates. To change that, change globals.vue-jest.platform to the desired platform.
 
 > **NOTE:** This is documentation for `vue-jest@3.x`. [View the vue-jest@2.x documentation](https://github.com/vuejs/vue-jest/tree/e694fc7ce11ae1ac1c778ed7c4402515c5f0d5aa)
 
 ## Usage
 
 ```bash
-npm install --save-dev vue-jest
+npm install --save-dev nativescript-vue-jest
 ```
 
 ## Setup
 
-To define `vue-jest` as a transformer for your `.vue` files, map them to the `vue-jest` module:
+To define `nativescript-vue-jest` as a transformer for your `.vue` files, map them to the `nativescript-vue-jest` module:
 
 ```json
 {
   "jest": {
     "transform": {
-      "^.+\\.vue$": "vue-jest"
+      "^.+\\.vue$": "nativescript-vue-jest"
     }
 }
 ```
@@ -35,7 +37,7 @@ A full config will look like this.
     ],
     "transform": {
       "^.+\\.js$": "babel-jest",
-      "^.+\\.vue$": "vue-jest"
+      "^.+\\.vue$": "nativescript-vue-jest"
     }
   }
 }
@@ -52,7 +54,7 @@ Example repositories testing Vue components with jest and vue-jest:
 
 ## Supported langs
 
-vue-jest compiles the script and template of SFCs into a JavaScript file that Jest can run. **Currently, SCSS, SASS and Stylus are the only style languages that are compiled**.
+nativescript-vue-jest compiles the script and template of SFCs into a JavaScript file that Jest can run. **Currently, SCSS, SASS and Stylus are the only style languages that are compiled**.
 
 ### Supported script languages
 
@@ -61,7 +63,7 @@ vue-jest compiles the script and template of SFCs into a JavaScript file that Je
 
 ### Global Jest options
 
-You can change the behavior of `vue-jest` by using `jest.globals`.
+You can change the behavior of `nativescript-vue-jest` by using `jest.globals`.
 
 > *Tip:* Need programmatic configuration? Use the [--config](https://jestjs.io/docs/en/cli.html#config-path) option in Jest CLI, and export a `.js` file
 
