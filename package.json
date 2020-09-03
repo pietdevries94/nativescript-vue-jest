@@ -51,7 +51,7 @@
     "jest": "^24.0.0",
     "less": "^3.9.0",
     "lint-staged": "^8.0.5",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.14.1",
     "prettier": "^1.16.1",
     "pug": "^2.0.3",
     "semantic-release": "^15.13.2",
