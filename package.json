@@ -57,7 +57,7 @@
     "semantic-release": "^15.13.2",
     "stylus": "^0.54.5",
     "typescript": "^3.2.2",
-    "vue": "^2.4.2",
+    "vue": "^3.5.12",
     "vue-template-compiler": "^2.4.2"
   },
   "peerDependencies": {
